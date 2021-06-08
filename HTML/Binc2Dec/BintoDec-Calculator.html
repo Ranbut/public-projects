@@ -1,0 +1,19 @@
+<DOCTYPE html>
+    <html lang="en"><head>
+        <title>Binary and Decimal</title>
+        <link rel="stylesheet" href="style.css">
+    </head>
+    <body>
+        <div class="container">
+            <h1>Binary and Decimal Converter</h1>
+            <input type="button" id="btnClick" value="Binary to Decimal" onclick="bintoDecimal()">
+            <input type="button" id="btnClick" value="Decimal to Binary" onclick="decimaltoBin()">
+            <h3 id="a-text">Binary to Decimal</h3>
+            <p id="b-text">Binary:</p> 
+            <input type="text" id="input" oninput="Converter(this.value)" placeholder="Entry a binary number">
+            <p id="c-text">Decimal:</p>
+            <span id="output"></span>
+        </div>
+        <script src="main.js"></script>
+    
+    </body></html>
